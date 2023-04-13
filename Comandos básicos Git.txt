@@ -1,0 +1,32 @@
+git init: inicializa um repositório local na sua máquina
+
+git clone: clonamos qualquer repositório nosso ou de algum repositório público que
+permita
+
+git status: usamos para verificar o status das mudanças e alterações que fizemos
+
+git add . : usamos para adicionar as mudanças que fizemos
+
+git commit: serve para escrevermos as mudanças que fizemos no arquivo, é muito
+importante deixarmos uma mensagem que diga com detalhes o que fizemos ou bem
+explicativa 
+	git commit -m "mensagem descrevendo o que fizemos"
+	
+git checkout -b <nomeBranch>: esse comando serve para criar uma nova branch e já
+alterar para a nova branch
+	git checkout -b develop
+
+git push: depois de adicionarmos um ou mais arquivos precisamos mandar eles para
+nosso repositório no GitHub
+	git push
+	ou
+	git push origin master
+
+git pull: esse comando serve para baixarmos qualquer alteração que nosso repo
+sofreu, a ideia do git é de trabalharmos no projeto com mais pessoas, então se tem
+mais de um dev e esse faz um push, você localmente não terá as mudanças que ele
+fez, então é necessário atualizarmos nossa branch master para começarmos a nossa
+tarefa
+	git pull
+	ou
+	git pull origin master
